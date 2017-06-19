@@ -1,0 +1,4 @@
+<!--<persistence-unit name="microPU" transaction-type="JTA">
+    <jta-data-source>java:/comp/env/jdbc/microvenda</jta-data-source>
+</persistence-unit>
+ -->

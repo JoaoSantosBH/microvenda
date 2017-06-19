@@ -1,0 +1,22 @@
+ROTINAS CRONTAB EM ORDEM DE PRECEDENCIA
+
+1-	ROTINA VERIFICAÇÃO INATIVIDADE  04:50
+
+Verifica contas inativas com mais de 90 dias, se não houver cadastro exclui o negócio.
+
+-DisparaRotinaVerificacaoInatividadeServlet
+-InitJobVerificacaoInatividade.inicio();
+-AgenteVerificadorInatividade
+-ControladorUsuario.verificarInaitividadeDaContaNegocio();
+env.enviarEmailRotinaVerificacaoContaInativa(); id email  31
+
+2-	ROTINA VERIFICAÇÃO MENSALIDADE VENCIDA  23:55
+
+Verifica se hoje é o dia do vencimento e altera status pagamento para 4
+
+DisparaRotinaVencimentoMensalServlet
+InitJobRotinaVencimentoMensal.inicio();
+AgenteVerificadorMensalidades
+ControladorUsuario.VerificarVencimentoDeMensalidades();
+env.enviarEmailRotinaVerificacaoMensalidade();id email  30
+

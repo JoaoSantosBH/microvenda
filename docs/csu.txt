@@ -1,0 +1,80 @@
+======================================================
+I M P L E  M E N T A D O S  V E N D E D O R
+======================================================
+01+LOGAR SISTEMA              
+02+LOGOUT                     
+03+CADASTRAR NO SISTEMA       
+04+MANTER CLIENTE
+05+MANTER LINHA DE PRODUTOS (falta excluir orfaos) (validar o caso de não haver linha cadastrada)
+06+MANTER PRODUTOS (falta validar FLOAT, mask com formato) 
+07+MANTER ESTOQUE
+08+CRIAR PEDIDO
+09+VER PEDIDOS ATIVOS
+10+VER HISTORICO DE PEDIDOS
+11+GERAR VENDA
+12+VER HISTORICO DE VENDAS
+13+VER PARCELAS A RECEBER
+14+APAGAR PARCELAS A RECEBER
+15+LISTAR VENDAS POR PESQUISA DATAS
+16+LISTAR VENDAS POR DIA,SEMANA, MES
+17+LISTAR VENDAS POR CLIENTE
+18+LISTAR PEDIDOS POR CLIENTE
+19+LISTAR PEDIDOS POR DIA,SEMANA, MES
+20+LISTAR PARCELAS DAS VENDAS PARCELADAS
+21+ENVIAR EMAIL ADMIN NOVO CADASTRO NO SISTEMA
+22+RELAIZAR VENDA DIRETA
+23+ENVIAR EMAIL CLIENTE ESPECIFICO
+24+ENVIAR EMAIL TODOS CLIENTES
+25+BUSCAR VENDA POR PESQUISA
+26+BUSCAR USUARIO POR PESQUISA
+27+EXTORNAR VENDA
+28+RANKING DE CLIENTES
+29+ALTERAR DADOS PESSOAIS 
+30+CAPTURA IP ACESSO ATUAL
+31+ROTINAS VERIFICACOES MENSALIDADES E INATIVIDADE
+32+HISTORICO DE ACESSO USUARIO [IP E DATA DE ACESSO POR LOGIN
+33+PERFORMANCE DE VENDAS
+34+DECLARAR INVESTIMENTOS
+35-ROI e Informacoes
+======================================================
+I M P L E M E N T A D O   C L I E N T E 
+======================================================
+01+LOGIN
+02+LOGOUT
+03+LISTAR PEDIDOS ATIVOS
+04+ENVIAR EMAIL PARA VENDEDOR
+05+LISTAR HISTORICO COMPRAS
+06+ALTERAR DADOS PESSOAIS 
+07+RELAIZAR NOVO PEDIDO 
+08+Enviar e-mail pro vendedor
+09+CANCELAR PEDIDO
+
+
+
+======================================================
+A   I M P L E M E N T A R
+======================================================
+01 -  Rankinkg Produto mais vendido PARA Produto menos vendido
+02 -  Desabilitar email se não houver clientes cadastrados [servlet se lista for null retorna mensagem] 
+03 -  [] incrementar estoque com quantidade index() - Nova Compra
+04 - 
+05 - Implementar DESABILITAR meu negócio
+06 - Listar vendas por Tipo pagamento 
+07 - Criar fornecedor para produtos
+08 - Disparar email para fornecedorr fazendo pedido
+09 - 
+10 - 
+11 - IMPLEMENTAR VALIDADE LINK VALIDACAO
+12 - 
+13-  
+14 - Implementar Limpa de CADASTROS INVALIDOS (não foram confirmados pelo ) com mais de 30 dias
+15 - 
+16 - 
+17 - nome da conta cadastrada
+18 - tela excluir usuario
+19 - email alteracao estoque
+20 - Email avisando nova versão
+21 - email avisando alteração de valor produto
+
+
+suporte : skype, email ,zap
